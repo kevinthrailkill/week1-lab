@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0501A70EC086E936121C91FC /* Pods_tumblr_lab1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC310DBC0342EC97F4B2FDBE /* Pods_tumblr_lab1.framework */; };
+		192F21FD1E8CA1B600EFB8A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F21FC1E8CA1B600EFB8A9 /* AppDelegate.swift */; };
+		192F21FF1E8CA1B600EFB8A9 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F21FE1E8CA1B600EFB8A9 /* PhotosViewController.swift */; };
+		192F22021E8CA1B600EFB8A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192F22001E8CA1B600EFB8A9 /* Main.storyboard */; };
+		192F22041E8CA1B600EFB8A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192F22031E8CA1B600EFB8A9 /* Assets.xcassets */; };
+		192F22071E8CA1B600EFB8A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192F22051E8CA1B600EFB8A9 /* LaunchScreen.storyboard */; };
+		192F220F1E8CA9F400EFB8A9 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F220E1E8CA9F400EFB8A9 /* PhotoCell.swift */; };
+		192F22111E8CAC4600EFB8A9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F22101E8CAC4600EFB8A9 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		192F21F91E8CA1B600EFB8A9 /* tumblr-lab1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tumblr-lab1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		192F21FC1E8CA1B600EFB8A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		192F21FE1E8CA1B600EFB8A9 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		192F22011E8CA1B600EFB8A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		192F22031E8CA1B600EFB8A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		192F22061E8CA1B600EFB8A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		192F22081E8CA1B600EFB8A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192F220E1E8CA9F400EFB8A9 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		192F22101E8CAC4600EFB8A9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CE1A917C682163E62DF8D57B /* Pods-tumblr-lab1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumblr-lab1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tumblr-lab1/Pods-tumblr-lab1.debug.xcconfig"; sourceTree = "<group>"; };
+		D6FA72A96EEB8FC098337525 /* Pods-tumblr-lab1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumblr-lab1.release.xcconfig"; path = "Pods/Target Support Files/Pods-tumblr-lab1/Pods-tumblr-lab1.release.xcconfig"; sourceTree = "<group>"; };
+		FC310DBC0342EC97F4B2FDBE /* Pods_tumblr_lab1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tumblr_lab1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		192F21F61E8CA1B600EFB8A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0501A70EC086E936121C91FC /* Pods_tumblr_lab1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		192F21F01E8CA1B500EFB8A9 = {
+			isa = PBXGroup;
+			children = (
+				192F21FB1E8CA1B600EFB8A9 /* tumblr-lab1 */,
+				192F21FA1E8CA1B600EFB8A9 /* Products */,
+				7A8EBECEC7D300D3E6CF6040 /* Pods */,
+				78EAAE50F4936E800E35273A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		192F21FA1E8CA1B600EFB8A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				192F21F91E8CA1B600EFB8A9 /* tumblr-lab1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		192F21FB1E8CA1B600EFB8A9 /* tumblr-lab1 */ = {
+			isa = PBXGroup;
+			children = (
+				192F21FC1E8CA1B600EFB8A9 /* AppDelegate.swift */,
+				192F21FE1E8CA1B600EFB8A9 /* PhotosViewController.swift */,
+				192F220E1E8CA9F400EFB8A9 /* PhotoCell.swift */,
+				192F22001E8CA1B600EFB8A9 /* Main.storyboard */,
+				192F22101E8CAC4600EFB8A9 /* DetailViewController.swift */,
+				192F22031E8CA1B600EFB8A9 /* Assets.xcassets */,
+				192F22051E8CA1B600EFB8A9 /* LaunchScreen.storyboard */,
+				192F22081E8CA1B600EFB8A9 /* Info.plist */,
+			);
+			path = "tumblr-lab1";
+			sourceTree = "<group>";
+		};
+		78EAAE50F4936E800E35273A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC310DBC0342EC97F4B2FDBE /* Pods_tumblr_lab1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A8EBECEC7D300D3E6CF6040 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE1A917C682163E62DF8D57B /* Pods-tumblr-lab1.debug.xcconfig */,
+				D6FA72A96EEB8FC098337525 /* Pods-tumblr-lab1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		192F21F81E8CA1B600EFB8A9 /* tumblr-lab1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 192F220B1E8CA1B600EFB8A9 /* Build configuration list for PBXNativeTarget "tumblr-lab1" */;
+			buildPhases = (
+				19B920F40342E9BB0BEF8539 /* [CP] Check Pods Manifest.lock */,
+				192F21F51E8CA1B600EFB8A9 /* Sources */,
+				192F21F61E8CA1B600EFB8A9 /* Frameworks */,
+				192F21F71E8CA1B600EFB8A9 /* Resources */,
+				071ACB07F4E4C001D645C5B5 /* [CP] Embed Pods Frameworks */,
+				F09C6436DA62C7705AE54DA5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tumblr-lab1";
+			productName = "tumblr-lab1";
+			productReference = 192F21F91E8CA1B600EFB8A9 /* tumblr-lab1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		192F21F11E8CA1B500EFB8A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kevinthrailkill;
+				TargetAttributes = {
+					192F21F81E8CA1B600EFB8A9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YUYDGGZ6SW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 192F21F41E8CA1B500EFB8A9 /* Build configuration list for PBXProject "tumblr-lab1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 192F21F01E8CA1B500EFB8A9;
+			productRefGroup = 192F21FA1E8CA1B600EFB8A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				192F21F81E8CA1B600EFB8A9 /* tumblr-lab1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		192F21F71E8CA1B600EFB8A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192F22071E8CA1B600EFB8A9 /* LaunchScreen.storyboard in Resources */,
+				192F22041E8CA1B600EFB8A9 /* Assets.xcassets in Resources */,
+				192F22021E8CA1B600EFB8A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		071ACB07F4E4C001D645C5B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tumblr-lab1/Pods-tumblr-lab1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19B920F40342E9BB0BEF8539 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F09C6436DA62C7705AE54DA5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tumblr-lab1/Pods-tumblr-lab1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		192F21F51E8CA1B600EFB8A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192F21FF1E8CA1B600EFB8A9 /* PhotosViewController.swift in Sources */,
+				192F220F1E8CA9F400EFB8A9 /* PhotoCell.swift in Sources */,
+				192F21FD1E8CA1B600EFB8A9 /* AppDelegate.swift in Sources */,
+				192F22111E8CAC4600EFB8A9 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		192F22001E8CA1B600EFB8A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				192F22011E8CA1B600EFB8A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		192F22051E8CA1B600EFB8A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				192F22061E8CA1B600EFB8A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		192F22091E8CA1B600EFB8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		192F220A1E8CA1B600EFB8A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		192F220C1E8CA1B600EFB8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE1A917C682163E62DF8D57B /* Pods-tumblr-lab1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YUYDGGZ6SW;
+				INFOPLIST_FILE = "tumblr-lab1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinthrailkill.tumblr-lab1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		192F220D1E8CA1B600EFB8A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6FA72A96EEB8FC098337525 /* Pods-tumblr-lab1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YUYDGGZ6SW;
+				INFOPLIST_FILE = "tumblr-lab1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinthrailkill.tumblr-lab1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		192F21F41E8CA1B500EFB8A9 /* Build configuration list for PBXProject "tumblr-lab1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				192F22091E8CA1B600EFB8A9 /* Debug */,
+				192F220A1E8CA1B600EFB8A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		192F220B1E8CA1B600EFB8A9 /* Build configuration list for PBXNativeTarget "tumblr-lab1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				192F220C1E8CA1B600EFB8A9 /* Debug */,
+				192F220D1E8CA1B600EFB8A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 192F21F11E8CA1B500EFB8A9 /* Project object */;
+}
